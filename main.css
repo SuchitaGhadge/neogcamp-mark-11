@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2D2424;
+  color: #fff;
+}
+
+.container .heading {
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.container .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.container .main input {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  padding: 10px 20px;
+  margin: 15px 20px;
+  border: none;
+  outline: none;
+}
+
+.container .main button {
+  padding: 10px;
+  margin: 5px;
+  width: 15%;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.container .main button:hover {
+  background-color: #8b8686;
+  color: #fff;
+}
+
+.container .main textarea {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 20px;
+}
+/*# sourceMappingURL=main.css.map */
