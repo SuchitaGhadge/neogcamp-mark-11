@@ -43,6 +43,7 @@ body {
           align-items: center;
   margin-top: 20px;
   font-weight: 300;
+  font-size: 18px;
 }
 
 .container .main input {
@@ -54,25 +55,30 @@ body {
   margin: 15px 20px;
   border: none;
   outline: none;
+  font-size: 16px;
 }
 
 .container .main button {
-  padding: 10px;
+  padding: 10px 20px;
   margin: 5px;
-  width: 15%;
   outline: none;
   border: none;
   border-radius: 0.5rem;
+  font-size: 16px;
+  letter-spacing: 2px;
 }
 
 .container .main button:hover {
-  background-color: #8b8686;
+  background-color: #8b8686a2;
   color: #fff;
+  border: 2px solid #fff;
 }
 
 .container .main textarea {
   width: 50%;
   padding: 10px 20px;
   margin: 20px;
+  font-size: 18px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=main.css.map */
